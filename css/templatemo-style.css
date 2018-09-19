@@ -247,8 +247,28 @@ bootstrap.min.css:5
 	margin-top: 25px;
 }
 
+#description {
+  background-image: url(../img/description-bg.jpg);
+}
 
-#about {
+#description .service-item, p {
+  text-align: center;
+  color: white;
+}
+
+#description h4 {
+  font-size: 27px;
+}
+
+#description p {
+  font-size: 16px;
+}
+
+#description .line-dec, h4 {
+
+}
+
+.about {
 	padding: 150px 0px;
 	background-image: url(../img/about-bg.jpg);
 	background-repeat: no-repeat;
